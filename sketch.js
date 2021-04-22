@@ -69,5 +69,5 @@ function draw() {
 }
 
 function mouseDragged() {
-    Matter.Body.setPosition(ball.body, { x: mouseX, y: mouseY });
+    Matter.Body.setPosition(ball1.body, { x: mouseX, y: mouseY });
   }
